@@ -8,7 +8,7 @@ However, the main topic would continue to consume hence this becomes more non-bl
 This service has been built to support `ms-kafka-replay` you would need to clone [ms-kafka-replay](https://github.com/anojkunes/ms-kafka-replay).
 You would need to run them both `ms-kafka-replay` and `ms-kafka-failure-simulation` and check the logs on what happens (This is where the true magic lies).
 
-Use the docker-compose file provided by either [kafka-replay-docs](https://github.com/anojkunes/kafka-retry-service)
+Use the docker-compose file provided in [kafka-replay-docs](https://github.com/anojkunes/kafka-replay-docs)
 ```bash
 docker compose up -d
 ```
